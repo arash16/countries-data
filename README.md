@@ -19,7 +19,7 @@ The data is about countries, languages codes and anthems.
 
 ## Installation
 ```
-npm install countries-data
+npm install countries-languages
 ```
 
 ## Countries Data

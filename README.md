@@ -1,23 +1,20 @@
-# countries-data
-The project contains json data in typescript files.
+# countries-languages
+The project contains json data files.
 The data is about countries, languages codes and anthems.
-
-Used by [ng2-pipe](https://github.com/dormd/ng2-pipe) and [ng2-countries](https://github.com/dormd/ng2-countries).
 
 ## Table of Contents
 * [Installation](#installation)
-* [How to use with Angular 2](#how-to-use-in-angular-2)
 * [Countries Data](#countries-data)
   * [Data Structure](#data-structure)
-  * [Example: Israel](#example:-israel)
+  * [Example: Iran](#example-iran)
 * [Languages Data](#languages-data)
   * [Data Structure](#data-structure)
-  * [Example: Hebrew](#example:-hebrew)
-  * [Example: Malay](#example:-malay)
-  * [Example: Albanian](#example:-albanian)  
+  * [Example: Azerbaijani](#example-azerbaijani)
+  * [Example: Malay](#example-malay)
+  * [Example: Albanian](#example-albanian)  
 * [Anthems Data](#anthems-data)
   * [Data Structure](#data-structure)
-  * [Example: Israel](#example:-israel)
+  * [Example: United States](#example-united-states)
 * [Initial Data Source](#initial-data-source)
 
 ## Installation
@@ -111,89 +108,82 @@ The countries data based on iso_3166_1_alpha2 (a2) countries codes.
     - `worldPercentage` - country population of world population percentage
 - `wikiLink` - relative link to country wikipedia page
 
-### Example: Israel
+### Example: Iran
 ```json
 {
-  "IL": {
+  "IR": {
     "name": {
-      "common": "Israel",
-      "official": "State of Israel",
+      "common": "Iran",
+      "official": "Islamic Republic of Iran",
       "native": {
-        "heb": {
-          "official": "\u05de\u05d3\u05d9\u05e0\u05ea \u05d9\u05e9\u05e8\u05d0\u05dc",
-          "common": "\u05d9\u05e9\u05e8\u05d0\u05dc"
-        },
-        "ara": {
-          "official": "\u062f\u0648\u0644\u0629 \u0625\u0633\u0631\u0627\u0626\u064a\u0644",
-          "common": "\u0625\u0633\u0631\u0627\u0626\u064a\u0644"
+        "fas": {
+          "official": "جمهوری اسلامی ایران",
+          "common": "ایران"
         }
       }
     },
-    "demonym": "Israeli",
-    "capital": "Jerusalem",
-    "iso_3166_1_alpha2": "IL",
-    "iso_3166_1_alpha3": "ISR",
-    "iso_3166_1_numeric": "376",
+    "demonym": "Iranian",
+    "capital": "Tehran",
+    "iso_3166_1_alpha2": "IR",
+    "iso_3166_1_alpha3": "IRN",
+    "iso_3166_1_numeric": "364",
     "currency": {
-      "ILS": {
-        "iso_4217_code": "ILS",
-        "iso_4217_numeric": 376,
-        "iso_4217_name": "New Israeli Sheqel",
+      "IRR": {
+        "iso_4217_code": "IRR",
+        "iso_4217_numeric": 364,
+        "iso_4217_name": "Iranian rial",
         "iso_4217_minor_unit": 2
       }
     },
     "tld": [
-      ".il"
+      ".ir",
+      "ایران."
     ],
     "alt_spellings": [
-      "IL",
-      "State of Israel",
-      "Med\u012bnat Yisr\u0101'el"
+      "IR",
+      "Islamic Republic of Iran",
+      "Iran, Islamic Republic of",
+      "Jomhuri-ye Eslāmi-ye Irān"
     ],
     "languages": {
-      "ara": "Arabic",
-      "heb": "Hebrew"
+      "fas": "Persian"
     },
     "translations": {
       "deu": {
-        "official": "Staat Israel",
-        "common": "Israel"
+        "official": "Islamische Republik Iran",
+        "common": "Iran"
       },
       "fra": {
-        "official": "\u00c9tat d'Isra\u00ebl",
-        "common": "Isra\u00ebl"
+        "official": "République islamique d'Iran",
+        "common": "Iran"
       },
       "hrv": {
-        "official": "Dr\u017eava Izrael",
-        "common": "Izrael"
-      },
-      "ita": {
-        "official": "Stato di Israele",
-        "common": "Israele"
+        "official": "Islamska Republika Iran",
+        "common": "Iran"
       },
       "jpn": {
-        "official": "\u30a4\u30b9\u30e9\u30a8\u30eb\u56fd",
-        "common": "\u30a4\u30b9\u30e9\u30a8\u30eb"
+        "official": "イラン·イスラム共和国",
+        "common": "イラン・イスラム共和国"
       },
       "nld": {
-        "official": "Staat Isra\u00ebl",
-        "common": "Isra\u00ebl"
+        "official": "Islamitische Republiek Iran",
+        "common": "Iran"
       },
       "por": {
-        "official": "Estado de Israel",
-        "common": "Israel"
+        "official": "República Islâmica do Irã",
+        "common": "Irão"
       },
       "rus": {
-        "official": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0418\u0437\u0440\u0430\u0438\u043b\u044c",
-        "common": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c"
+        "official": "Исламская Республика Иран",
+        "common": "Иран"
       },
       "spa": {
-        "official": "Estado de Israel",
-        "common": "Israel"
+        "official": "República Islámica de Irán",
+        "common": "Iran"
       },
       "fin": {
-        "official": "Israelin valtio",
-        "common": "Israel"
+        "official": "Iranin islamilainen tasavalta",
+        "common": "Iran"
       }
     },
     "geo": {
@@ -201,38 +191,39 @@ The countries data based on iso_3166_1_alpha2 (a2) countries codes.
         "AS": "Asia"
       },
       "postal_code": true,
-      "latitude": "31 30 N",
-      "latitude_dec": "31.814193725585938",
-      "longitude": "34 45 E",
-      "longitude_dec": "34.75337219238281",
-      "max_latitude": "33.286111",
-      "max_longitude": "35.666667",
-      "min_latitude": "29.516667",
-      "min_longitude": "34.283333",
-      "area": 20770,
+      "latitude": "32 00 N",
+      "latitude_dec": "32.50077819824219",
+      "longitude": "53 00 E",
+      "longitude_dec": "54.2942008972168",
+      "max_latitude": "39.7754",
+      "max_longitude": "62",
+      "min_latitude": "25.05",
+      "min_longitude": "27.4455",
+      "area": 1648195,
       "region": "Asia",
-      "subregion": "Western Asia",
+      "subregion": "Southern Asia",
       "world_region": "EMEA",
       "region_code": "142",
-      "subregion_code": "145",
+      "subregion_code": "034",
       "landlocked": false,
       "borders": [
-        "EGY",
-        "JOR",
-        "LBN",
-        "SYR"
+        "AFG",
+        "ARM",
+        "AZE",
+        "IRQ",
+        "PAK",
+        "TUR",
+        "TKM"
       ],
       "independent": "Yes"
     },
     "dialling": {
       "calling_code": [
-        "972"
+        "98"
       ],
       "national_prefix": "0",
       "national_number_lengths": [
-        7,
-        8,
-        9
+        10
       ],
       "national_destination_code_lengths": [
         2
@@ -240,30 +231,30 @@ The countries data based on iso_3166_1_alpha2 (a2) countries codes.
       "international_prefix": "00"
     },
     "extra": {
-      "geonameid": 294640,
-      "edgar": "L3",
-      "itu": "ISR",
-      "marc": "is",
-      "wmo": "IS",
-      "ds": "IL",
-      "fifa": "ISR",
-      "fips": "IS",
-      "gaul": 121,
-      "ioc": "ISR",
-      "cowc": "ISR",
-      "cown": 666,
-      "fao": 105,
-      "imf": 436,
+      "geonameid": 130758,
+      "edgar": 0,
+      "itu": "IRN",
+      "marc": "ir",
+      "wmo": "IR",
+      "ds": "IR",
+      "fifa": "IRN",
+      "fips": "IR",
+      "gaul": 117,
+      "ioc": "IRI",
+      "cowc": "IRN",
+      "cown": 630,
+      "fao": 102,
+      "imf": 429,
       "ar5": "MAF",
-      "address_format": "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
+      "address_format": null,
       "eu_member": null,
       "vat_rates": null
     },
     "population": {
-      "count": 8597260,
-      "worldPercentage": 0.115
+      "count": 79615300,
+      "worldPercentage": 1.07
     },
-    "wikiLink": "\/wiki\/Israel"
+    "wikiLink": "/wiki/Iran"
   }
 }
 ```
@@ -278,11 +269,11 @@ The Languages data based on ISO 639-3 languages codes.
     - `optional` - another speaker that speak the language
     - `speakerGenderRestriction` - Male when Female speaker does not exist
 
-### Example: Hebrew
+### Example: Azerbaijani
 ```json
 {
-  "heb": {
-    "full": "Hebrew",
+  "aze": {
+    "full": "Azerbaijani",
     "speak": {
       "isExist": false
     }
@@ -321,60 +312,15 @@ The country keys is based on iso_3166_1_alpha2 (a2) countries codes.
 - `link` - full link to audio file 
 - `source` - link source
 
-### Example: Israel
+### Example: United States
 ```json
 { 
-  "IL": {
-    "link":"https://commons.wikimedia.org/wiki/File%3AHatikvah instrumental.ogg?embedplayer=yes",
-    "source":"wikimedia"
+  "US": {
+    "link": "https://commons.wikimedia.org/wiki/File%3AStar Spangled Banner instrumental.ogg?embedplayer=yes",
+    "source": "wikimedia"
   }
 }
 ```
-
-## How to use with Angular 2
-### Step 1: NgModule file
-```javascript
-import { NgModule, OpaqueToken }      from '@angular/core';
-         
-export { Countries, ICountry, 
-         Anthems, IAnthem,
-         Languages, ILanguage,
-         CountriesData, AnthemsData,
-         LanguagesData }              from 'countries-data';
-
-export const COUNTRIES_DATA = new OpaqueToken('CountriesData');
-export const LANGUAGES_DATA = new OpaqueToken('LanguagesData');
-export const ANTHEMS_DATA = new OpaqueToken('AnthemsData');
-
-const providers = [
-    { provide: COUNTRIES_DATA, useValue: CountriesData },
-    { provide: LANGUAGES_DATA, useValue: LanguagesData },  
-    { provide: ANTHEMS_DATA, useValue: AnthemsData }
-];
-
-@NgModule({
-    providers: providers
-})
-export class SharedModule { }
-```
-
-### Step 2: Component file
-```javascript
-import { Injectable } from '@angular/core';
-import { COUNTRIES_DATA, Countries } from '../../shared/models';
-
-@Injectable()
-export class MyService {
-
-    constructor(@Inject(COUNTRIES_DATA) private _countriesData: Countries) { }
-
-    public getCountryPopulation(alpha2: string): ICountryNativeName {
-        return this._countriesData[alpha2].population.count;
-    }
-}
-```
-
-
 
 ### Initial Data Source
 The initial json data is part of [rinvex country](https://github.com/rinvex/country) repository.

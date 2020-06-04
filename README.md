@@ -323,4 +323,6 @@ The country keys is based on iso_3166_1_alpha2 (a2) countries codes.
 ```
 
 ### Initial Data Source
+Transformed from [countries-data](https://github.com/dormd/countries-data) to json format.
+
 The initial json data is part of [rinvex country](https://github.com/rinvex/country) repository.

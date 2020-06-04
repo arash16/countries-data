@@ -1,6 +1,6 @@
 {
   "name": "countries-languages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Countries data (general, languages, geo, anthems, etc) ",
   "main": "index.js",
   "repository": {

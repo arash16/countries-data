@@ -18,8 +18,12 @@ The data is about countries, languages codes and anthems.
 * [Initial Data Source](#initial-data-source)
 
 ## Installation
-```
+```bash
 npm install countries-languages
+```
+
+```javascript
+const { anthems, countries, languages } = require('countries-languages');
 ```
 
 ## Countries Data
